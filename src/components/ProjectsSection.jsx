@@ -61,6 +61,8 @@ const projects = [
       "/Projects/odontopro/servicos.PNG",
     ],
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "NeonDB", "Shadcn/UI"],
+    demoURL: "https://odonto-pro-brown.vercel.app/",
+    gitgubURL: "https://github.com/WagnerKauan/OdontoPRO",
   }
 ]
 
