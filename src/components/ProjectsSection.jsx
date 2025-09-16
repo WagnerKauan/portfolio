@@ -33,6 +33,35 @@ const projects = [
     demoURL: "https://helpify-pro.netlify.app/",
     gitgubURL: "https://github.com/WagnerKauan/HelpDesk",
   },
+
+  {
+    id: 3,
+    title: "Trenntine Pizzaria",
+    description: "Projeto desenvolvido para digitalizar o atendimento de uma pizzaria, permitindo que clientes façam pedidos online de forma prática, com carrinho dinâmico e promoções aplicadas automaticamente. No painel administrativo, o dono gerencia produtos, promoções e acompanha pedidos em tempo real, otimizando o fluxo do negócio e facilitando o controle do estabelecimento.",
+    images: [
+      "/Projects/trenntine/Pedidos.png",
+      "/Projects/trenntine/Produtos.png",
+      "/Projects/trenntine/maisPedidas.png",
+      "/Projects/trenntine/menu.PNG",
+    ],
+
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "NeonDB", "Shadcn/UI", "Redux"],
+    demoURL:"https://trenntine-pizzaria.vercel.app/",
+    gitgubURL: "https://github.com/WagnerKauan/trenntinePizzaria",
+  },
+
+  {
+    id: 4,
+    title: "OdontoPRO",
+    description: "SaaS para clínicas que permite agendamentos só nos horários disponíveis. O painel administrativo gerencia serviços, horários, status, agendamentos em tempo real e lembretes com fotos da clínica. Planos BASIC e PROFESSIONAL definem limites de serviços cadastráveis, facilitando o controle do negócio.",
+    images: [
+      "/Projects/odontopro/dashboard.PNG",
+      "/Projects/odontopro/agendamento.PNG",
+      "/Projects/odontopro/planos.PNG",
+      "/Projects/odontopro/servicos.PNG",
+    ],
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "NeonDB", "Shadcn/UI"],
+  }
 ]
 
 export const ProjectsSection = () => {
